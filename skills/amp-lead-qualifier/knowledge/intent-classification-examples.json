@@ -1,0 +1,312 @@
+{
+  "last_updated": "2026-01-23",
+  "description": "Example emails and their correct classifications for training reference",
+  "intent_categories": [
+    "road_course",
+    "race_karting",
+    "concession_karting",
+    "membership_comparison",
+    "events",
+    "rules",
+    "onboarding",
+    "escalation",
+    "general"
+  ],
+  "examples": [
+    {
+      "category": "road_course",
+      "email": "I'm interested in bringing my Porsche to drive on your track. What memberships do you offer?",
+      "expected_intent": "road_course",
+      "expected_priority": "medium",
+      "route_to": "amp-main-track-advisor",
+      "notes": "Car owner asking about track membership"
+    },
+    {
+      "category": "road_course",
+      "email": "What's the difference between Platinum and Diamond membership?",
+      "expected_intent": "road_course",
+      "expected_priority": "medium",
+      "route_to": "amp-main-track-advisor",
+      "notes": "Specific road course tier comparison"
+    },
+    {
+      "category": "road_course",
+      "email": "Can I bring my motorcycle to track days?",
+      "expected_intent": "road_course",
+      "expected_priority": "medium",
+      "route_to": "amp-main-track-advisor",
+      "notes": "Motorcycle on road course inquiry"
+    },
+    {
+      "category": "road_course",
+      "email": "I'm not ready for membership. Are there any driving experiences I can do?",
+      "expected_intent": "road_course",
+      "expected_priority": "medium",
+      "route_to": "amp-main-track-advisor",
+      "notes": "Non-member car track options"
+    },
+    {
+      "category": "race_karting",
+      "email": "My 8-year-old wants to get into competitive karting. How do we start?",
+      "expected_intent": "race_karting",
+      "expected_priority": "medium",
+      "route_to": "amp-karting-advisor",
+      "notes": "Child wanting competitive karting = race karting path"
+    },
+    {
+      "category": "race_karting",
+      "email": "What kart and equipment do I need to buy to race at AMP?",
+      "expected_intent": "race_karting",
+      "expected_priority": "medium",
+      "route_to": "amp-karting-advisor",
+      "notes": "Equipment purchase = owns kart intent"
+    },
+    {
+      "category": "race_karting",
+      "email": "How much is the karting membership and what's included?",
+      "expected_intent": "race_karting",
+      "expected_priority": "medium",
+      "route_to": "amp-karting-advisor",
+      "notes": "Karting membership = race karting (not rental)"
+    },
+    {
+      "category": "race_karting",
+      "email": "Do you offer karting school for beginners who want to race?",
+      "expected_intent": "race_karting",
+      "expected_priority": "medium",
+      "route_to": "amp-karting-advisor",
+      "notes": "Karting school = pathway to race karting"
+    },
+    {
+      "category": "race_karting",
+      "email": "What's the difference between LO206 and TaG engines?",
+      "expected_intent": "race_karting",
+      "expected_priority": "medium",
+      "route_to": "amp-karting-advisor",
+      "notes": "Engine type question = serious about race karting"
+    },
+    {
+      "category": "concession_karting",
+      "email": "How old does my child need to be to drive the rental karts?",
+      "expected_intent": "concession_karting",
+      "expected_priority": "medium",
+      "route_to": "amp-concession-karting-advisor",
+      "notes": "Rental kart age requirement"
+    },
+    {
+      "category": "concession_karting",
+      "email": "I want to book a karting session for my family this weekend.",
+      "expected_intent": "concession_karting",
+      "expected_priority": "medium",
+      "route_to": "amp-concession-karting-advisor",
+      "notes": "Session booking = rental karting"
+    },
+    {
+      "category": "concession_karting",
+      "email": "Do you have karting leagues we can join?",
+      "expected_intent": "concession_karting",
+      "expected_priority": "medium",
+      "route_to": "amp-concession-karting-advisor",
+      "notes": "Leagues use rental karts"
+    },
+    {
+      "category": "concession_karting",
+      "email": "Planning a birthday party for 10 kids. What are your group karting options?",
+      "expected_intent": "concession_karting",
+      "expected_priority": "medium",
+      "route_to": "amp-concession-karting-advisor",
+      "notes": "Birthday party = rental karting"
+    },
+    {
+      "category": "concession_karting",
+      "email": "My daughter is 9. Is there anything she can do at your karting track?",
+      "expected_intent": "concession_karting",
+      "expected_priority": "medium",
+      "route_to": "amp-concession-karting-advisor",
+      "notes": "Under 12 = Junior Discovery (handled by concession skill)"
+    },
+    {
+      "category": "concession_karting",
+      "email": "What's included in the arrive and drive experience?",
+      "expected_intent": "concession_karting",
+      "expected_priority": "medium",
+      "route_to": "amp-concession-karting-advisor",
+      "notes": "Arrive and drive = rental karting"
+    },
+    {
+      "category": "membership_comparison",
+      "email": "I'm confused about your memberships. What's the difference between road course and karting?",
+      "expected_intent": "membership_comparison",
+      "expected_priority": "medium",
+      "route_to": "amp-membership-explorer",
+      "notes": "Comparing different membership types"
+    },
+    {
+      "category": "membership_comparison",
+      "email": "How much is membership?",
+      "expected_intent": "membership_comparison",
+      "expected_priority": "medium",
+      "route_to": "amp-membership-explorer",
+      "notes": "Ambiguous - needs clarification about cars vs karts"
+    },
+    {
+      "category": "membership_comparison",
+      "email": "What are my options for joining AMP?",
+      "expected_intent": "membership_comparison",
+      "expected_priority": "medium",
+      "route_to": "amp-membership-explorer",
+      "notes": "General membership options = needs comparison skill"
+    },
+    {
+      "category": "events",
+      "email": "When is the next track day?",
+      "expected_intent": "events",
+      "expected_priority": "medium",
+      "route_to": "amp-event-finder",
+      "notes": "Calendar inquiry"
+    },
+    {
+      "category": "events",
+      "email": "Where can I find your event calendar?",
+      "expected_intent": "events",
+      "expected_priority": "medium",
+      "route_to": "amp-event-finder",
+      "notes": "Looking for schedule"
+    },
+    {
+      "category": "events",
+      "email": "Do you have any racing events coming up in March?",
+      "expected_intent": "events",
+      "expected_priority": "medium",
+      "route_to": "amp-event-finder",
+      "notes": "Event schedule question"
+    },
+    {
+      "category": "events",
+      "email": "What public events do you have for non-members?",
+      "expected_intent": "events",
+      "expected_priority": "medium",
+      "route_to": "amp-event-finder",
+      "notes": "Non-member looking for events"
+    },
+    {
+      "category": "rules",
+      "email": "What's the noise limit for cars at AMP?",
+      "expected_intent": "rules",
+      "expected_priority": "medium",
+      "route_to": "amp-rules-expert",
+      "notes": "Specific rule question"
+    },
+    {
+      "category": "rules",
+      "email": "Do I need my own helmet or can I borrow one?",
+      "expected_intent": "rules",
+      "expected_priority": "medium",
+      "route_to": "amp-rules-expert",
+      "notes": "Safety gear question"
+    },
+    {
+      "category": "rules",
+      "email": "What are the vehicle requirements for track days?",
+      "expected_intent": "rules",
+      "expected_priority": "medium",
+      "route_to": "amp-rules-expert",
+      "notes": "Tech inspection / vehicle requirements"
+    },
+    {
+      "category": "rules",
+      "email": "What do the different flag colors mean?",
+      "expected_intent": "rules",
+      "expected_priority": "medium",
+      "route_to": "amp-rules-expert",
+      "notes": "Track rules - flags"
+    },
+    {
+      "category": "onboarding",
+      "email": "I just signed up for membership! What do I need to do before my first visit?",
+      "expected_intent": "onboarding",
+      "expected_priority": "high",
+      "route_to": "amp-onboarding-coordinator",
+      "notes": "New member needs immediate guidance"
+    },
+    {
+      "category": "onboarding",
+      "email": "I'm a new member and my first track day is next week. What should I bring?",
+      "expected_intent": "onboarding",
+      "expected_priority": "medium",
+      "route_to": "amp-onboarding-coordinator",
+      "notes": "First visit preparation"
+    },
+    {
+      "category": "onboarding",
+      "email": "How do I access the member calendar?",
+      "expected_intent": "onboarding",
+      "expected_priority": "medium",
+      "route_to": "amp-onboarding-coordinator",
+      "notes": "New member portal help"
+    },
+    {
+      "category": "escalation",
+      "email": "The kart brakes failed and I almost crashed. This is unacceptable!",
+      "expected_intent": "escalation",
+      "expected_priority": "high",
+      "escalate": true,
+      "route_to": "amp-escalation-handler",
+      "notes": "Safety concern + complaint = immediate escalation"
+    },
+    {
+      "category": "escalation",
+      "email": "I want my money back. The experience was nothing like advertised.",
+      "expected_intent": "escalation",
+      "expected_priority": "high",
+      "escalate": true,
+      "route_to": "amp-escalation-handler",
+      "notes": "Refund request = escalation"
+    },
+    {
+      "category": "escalation",
+      "email": "Hi, I'm a reporter from the Atlanta Journal. Can I interview someone about the track?",
+      "expected_intent": "escalation",
+      "expected_priority": "high",
+      "escalate": true,
+      "route_to": "amp-escalation-handler",
+      "notes": "Media inquiry = escalation"
+    },
+    {
+      "category": "escalation",
+      "email": "THIS IS RIDICULOUS!!! I've been waiting 3 days for a response and NOBODY has helped me!",
+      "expected_intent": "escalation",
+      "expected_priority": "high",
+      "escalate": true,
+      "route_to": "amp-escalation-handler",
+      "notes": "Angry sentiment (caps, exclamation) = escalation"
+    },
+    {
+      "category": "escalation",
+      "email": "My lawyer will be in touch about the incident last week.",
+      "expected_intent": "escalation",
+      "expected_priority": "high",
+      "escalate": true,
+      "route_to": "amp-escalation-handler",
+      "notes": "Legal mention = immediate escalation"
+    },
+    {
+      "category": "general",
+      "email": "Are you hiring? I'm looking for a job at the track.",
+      "expected_intent": "general",
+      "expected_priority": "low",
+      "escalate": true,
+      "route_to": "amp-escalation-handler",
+      "notes": "Employment inquiry - not customer service, escalate"
+    },
+    {
+      "category": "general",
+      "email": "I'm a vendor and would like to discuss a partnership opportunity.",
+      "expected_intent": "general",
+      "expected_priority": "medium",
+      "escalate": true,
+      "route_to": "amp-escalation-handler",
+      "notes": "Business partnership - escalate to human"
+    }
+  ]
+}
