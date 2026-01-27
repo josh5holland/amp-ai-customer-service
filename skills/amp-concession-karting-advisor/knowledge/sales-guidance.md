@@ -101,7 +101,7 @@ Birthdays are CELEBRATIONS. Parents/organizers want:
 - **Casual group:** "Even for a casual hangout, having your own room to gather makes it feel like an event, not just everyone scattered around"
 
 ### Step 4: Offer Day/Time Adjustment (Not Experience Downgrade)
-"If budget is the main concern, Wednesday or Thursday pricing is about 15% lower - $179 vs $209 per person. Want me to quote that?"
+"If budget is the main concern, Wednesday or Thursday is more affordable - $179 per person with a $1,790 minimum. Want me to quote that?"
 
 ### Step 5: Only Mention Public Sessions If They Push Hard
 If they really push, mention public sessions as what it is - a DIY option:

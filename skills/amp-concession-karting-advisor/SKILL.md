@@ -317,8 +317,7 @@ What day of the week are you thinking - weekday or weekend?"
 - $179 per person
 - $1,790 minimum (covers up to 10 guests)
 
-**Friday/Saturday/Sunday:**
-- $209 per person
+**Weekend (Fri/Sat/Sun):**
 - $4,200 minimum (covers up to 20 guests)
 
 The minimum is a spend amount, not a headcount - so smaller groups can still book, you'd just pay the minimum.
