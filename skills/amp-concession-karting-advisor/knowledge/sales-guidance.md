@@ -14,15 +14,27 @@ AMP exists to create memorable experiences, not to be the cheapest option. When 
 
 ## The Sales Flow (Follow This Order)
 
+### FIRST RESPONSE (NO PRICING!)
 ```
 1. EXPERIENCE → Describe the Grand Prix Package (practice, qualifying, race, podium)
-2. REQUIREMENTS → Mention 12+ and 60" tall
-3. ASK THE DAY → "What day of the week are you thinking?"
-4. PRICING → Only after they ask or tell you the day
-5. HANDOFF → Forward to jessica@atlantamotorsportspark.com to book
+2. ADD-ONS → Mention private room, catering, award ceremony exist
+3. REQUIREMENTS → Mention 12+ and 60" tall
+4. ASK THE DAY → "What day of the week are you thinking - weekday or weekend?"
+5. STOP AND WAIT → Do NOT give pricing yet
 ```
 
-**DO NOT** jump straight to pricing. Get them excited first.
+### SECOND RESPONSE (After they answer)
+```
+6. PRICING → Give pricing based on their day (Wed/Thu vs Fri-Sun)
+7. HANDOFF → "Reach out to jessica@atlantamotorsportspark.com to book"
+```
+
+## CRITICAL: No Pricing Until They Tell You The Day
+
+❌ **WRONG:** "Here's the pricing: $179/person on weekdays, $209 on weekends..."
+✅ **RIGHT:** "What day are you thinking - weekday or weekend?" → WAIT → then give pricing
+
+The goal is a CONVERSATION, not a price dump.
 
 ---
 
