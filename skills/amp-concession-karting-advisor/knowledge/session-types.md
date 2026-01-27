@@ -78,10 +78,12 @@
 - **AMP is closed Mondays and Tuesdays**
 
 ### Grand Prix Pricing
-| Day | Per Person | Minimum Spend | Min Guests |
-|-----|------------|---------------|------------|
-| Wed/Thu | $179 | $1,790 | 10 |
-| Fri/Sat/Sun | $209 | $4,200 | 20 |
+| Day | Per Person | Minimum Spend |
+|-----|------------|---------------|
+| Wed/Thu | $179 | $1,790 (covers up to 10) |
+| Fri/Sat/Sun | $209 | $4,200 (covers up to 20) |
+
+**Note:** This is a minimum SPEND, not a guest minimum. Smaller groups can book but still pay the minimum.
 
 ### Add-Ons
 - **Room Rental:** $450

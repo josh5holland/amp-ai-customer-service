@@ -314,12 +314,14 @@ What day of the week are you thinking - weekday or weekend?"
 "Great question! It depends on the day:
 
 **Wednesday/Thursday:**
-- $179 per person for the Grand Prix
-- 10-person minimum
+- $179 per person
+- $1,790 minimum (covers up to 10 guests)
 
 **Friday/Saturday/Sunday:**
 - $209 per person
-- 20-person minimum
+- $4,200 minimum (covers up to 20 guests)
+
+The minimum is a spend amount, not a headcount - so smaller groups can still book, you'd just pay the minimum.
 
 Then you can add:
 - Private room: $450 (home base for the group)

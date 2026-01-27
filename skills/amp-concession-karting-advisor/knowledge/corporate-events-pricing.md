@@ -18,10 +18,17 @@ AMP offers structured corporate karting experiences with the **Grand Prix Packag
 
 ### Pricing
 
-| Day | Per Person | Minimum Spend | Min Guests |
-|-----|------------|---------------|------------|
-| Wednesday/Thursday | $179 | $1,790 | 10 |
-| Friday/Saturday/Sunday | $209 | $4,200 | 20 |
+| Day | Per Person | Minimum Spend |
+|-----|------------|---------------|
+| Wednesday/Thursday | $179 | $1,790 (covers up to 10 guests) |
+| Friday/Saturday/Sunday | $209 | $4,200 (covers up to 20 guests) |
+
+**How the minimum works:**
+- Weekend example: If you bring 12 people, you still pay $4,200 (the minimum). You're essentially paying for 20 slots.
+- Weekend example: If you bring 25 people, you pay $5,225 (25 × $209).
+- Weekday example: If you bring 8 people, you still pay $1,790 (the minimum).
+
+**This is a minimum SPEND, not a minimum headcount.** Smaller groups can still book - they just pay the minimum.
 
 ---
 
