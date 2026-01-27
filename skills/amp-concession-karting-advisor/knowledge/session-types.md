@@ -69,40 +69,25 @@
 
 ---
 
-## Corporate / Group Events
+## Corporate / Group Events / Birthday Parties
 
 ### Overview
-- Private track time for businesses
-- Grand Prix Package is most popular (practice, qualifying, final race, podium)
+- Grand Prix Package: practice, qualifying, final race, podium celebration
 - Can include private room rental, catering, and award ceremony
 - **AMP is closed Mondays and Tuesdays**
 
-### Grand Prix Pricing
-| Day | Pricing | Minimum Spend |
-|-----|---------|---------------|
-| Wed/Thu | $179/person | $1,790 (covers up to 10) |
-| Fri/Sat/Sun | — | $4,200 (covers up to 20) |
+### How to Handle
+Use the **template approach** - see `knowledge/group-event-template.md`
 
-**Note:** Don't quote per-person for weekends - just say "$4,200 minimum."
-
-**Note:** This is a minimum SPEND, not a guest minimum. Smaller groups can book but still pay the minimum.
-
-### Add-Ons
-- **Room Rental:** $450
-- **Award Ceremony:** $75
-- **Snacks & Beverages:** $18/person (groups under 20)
-- **Beverages:** $10/person (groups 20+)
-- **Buffet:** ~$28/person (groups 20+, varies by menu)
-
-### Booking
-- Contact AMP directly for custom quote
-- See `corporate-events-pricing.md` for detailed package examples
+1. Collect: day of week + number of guests
+2. Send the full template response with calculated pricing
+3. Route follow-up questions to jessica@atlantamotorsportspark.com
 
 ### Best For
-- Corporate team building (10+ people)
+- Birthday parties
+- Corporate team building
 - Client entertainment
 - Celebrations and milestones
-- Special occasions requiring private experience
 
 ---
 
