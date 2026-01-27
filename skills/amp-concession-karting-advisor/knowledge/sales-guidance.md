@@ -5,10 +5,24 @@
 **We are not a discount kart track. We are a premium motorsports experience.**
 
 AMP exists to create memorable experiences, not to be the cheapest option. When customers inquire, our job is to:
-1. Understand what they're celebrating or trying to achieve
-2. Paint the picture of an AMAZING experience
-3. Guide them to the package that delivers that experience
-4. Handle price concerns by emphasizing VALUE, not by downgrading
+1. **Lead with the EXPERIENCE** - Describe what makes it special before talking money
+2. **Ask about their day/date** - This lets you give accurate pricing AND moves toward booking
+3. **Give pricing when asked** - Don't volunteer it upfront
+4. **Hand off to Jessica for booking** - jessica@atlantamotorsportspark.com handles all group reservations
+
+---
+
+## The Sales Flow (Follow This Order)
+
+```
+1. EXPERIENCE → Describe the Grand Prix Package (practice, qualifying, race, podium)
+2. REQUIREMENTS → Mention 12+ and 60" tall
+3. ASK THE DAY → "What day of the week are you thinking?"
+4. PRICING → Only after they ask or tell you the day
+5. HANDOFF → Forward to jessica@atlantamotorsportspark.com to book
+```
+
+**DO NOT** jump straight to pricing. Get them excited first.
 
 ---
 
@@ -123,12 +137,25 @@ If they really push, mention public sessions as what it is - a DIY option:
 ## Follow-Up Questions That Lead to Sales
 
 Instead of ending with "any questions?", end with:
-- "What date works best for your group?"
+- "What day of the week are you thinking?"
 - "Is the birthday person 12 or older?"
 - "Would you prefer a weekend or is midweek an option?"
-- "Should I put together a custom quote for you?"
+- "Do you have a date in mind?"
 
 These move toward a booking, not just information.
+
+---
+
+## Handoff to Jessica (Booking Contact)
+
+**When customer is ready to book or check availability, forward to:**
+jessica@atlantamotorsportspark.com
+
+Say something like:
+> "To check availability and lock in your date, reach out to Jessica at jessica@atlantamotorsportspark.com - she handles all our group bookings. Let her know your preferred date, group size, and if you want the room/catering. She'll send you a custom quote!"
+
+Your job = get them excited, answer questions, give ballpark pricing
+Jessica's job = check availability, send official quote, close the booking
 
 ---
 
