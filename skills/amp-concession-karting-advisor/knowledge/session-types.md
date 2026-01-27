@@ -65,18 +65,31 @@
 
 ### Overview
 - Private track time for businesses
-- Customizable experiences
-- Team building activities
-- Can include food/beverage options
+- Grand Prix Package is most popular (practice, qualifying, final race, podium)
+- Can include private room rental, catering, and award ceremony
+- **AMP is closed Mondays and Tuesdays**
+
+### Grand Prix Pricing
+| Day | Per Person | Minimum Spend | Min Guests |
+|-----|------------|---------------|------------|
+| Wed/Thu | $179 | $1,790 | 10 |
+| Fri/Sat/Sun | $209 | $4,200 | 20 |
+
+### Add-Ons
+- **Room Rental:** $450
+- **Award Ceremony:** $75
+- **Snacks & Beverages:** $18/person (groups under 20)
+- **Beverages:** $10/person (groups 20+)
+- **Buffet:** ~$28/person (groups 20+, varies by menu)
 
 ### Booking
-- Contact AMP directly for custom arrangements
-- Pricing varies based on requirements
+- Contact AMP directly for custom quote
+- See `corporate-events-pricing.md` for detailed package examples
 
 ### Best For
-- Large groups (20+ people)
-- Corporate team building
+- Corporate team building (10+ people)
 - Client entertainment
+- Celebrations and milestones
 - Special occasions requiring private experience
 
 ---
