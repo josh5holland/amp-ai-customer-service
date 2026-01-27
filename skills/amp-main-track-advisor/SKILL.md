@@ -37,6 +37,7 @@ Reference these files for accurate information:
 - `knowledge/membership-tiers.md` - Pricing and tier comparison
 - `knowledge/2026-schedule.md` - What's included, track days, events
 - `knowledge/competition-options.md` - Racing series and championships
+- `knowledge/track-rentals.md` - Private track rentals for organizations
 
 ---
 
@@ -103,6 +104,42 @@ Always establish:
 | Have family who drives | Diamond + Family | Significant value |
 | Use for business/clients | Corporate Diamond | Multiple drivers included |
 | Are first-time membership | Platinum | Test the waters |
+
+---
+
+## Track Rentals (Organizations & Clubs)
+
+The main circuit is available for private rental by organizations, racing clubs, manufacturers, and film productions.
+
+### What's Included in a Rental
+- Full use of the 2-mile, 16-turn road course
+- Paddock area, corner marshals, pit-out marshal
+- Race control, tow truck, fire truck + ambulance
+- Indoor space and event support staff
+
+### Track Features for Renters
+- **Wet Skidpad & Ice Hill** - 7-degree slope, water jets, great for driver training
+- **Conference Center** - Indoor meeting space with catering available
+- **On-site Amenities** - EV charging (L2/L3), fuel station (regular + race fuel), showers
+
+### Good For
+- HPDE events and driving schools
+- Racing series
+- Corporate driving experiences
+- Manufacturer testing
+- Film & photo shoots
+- Driver training programs
+
+### Track Rules
+- **Sound limit:** 98 dB max (strictly enforced)
+- **Track hours:** Generally 9 AM - 5 PM with lunch break
+- **No engine revving** before 8:45 AM or after 5 PM
+
+**For rental pricing and availability, contact Jessica:** jessica@atlantamotorsportspark.com
+
+Pricing varies by season and day of week - Jessica can provide a custom quote.
+
+See `knowledge/track-rentals.md` for full details.
 
 ---
 
@@ -225,3 +262,29 @@ Both tiers include the same benefits: monthly classroom instruction, Track Day S
 If you're not sure how often you'll visit, **Platinum is a great starting point**. Many members start there and get a feel for how AMP fits into their life.
 
 Would you like me to connect you with Shawn to discuss which tier makes sense for your goals? shawn@atlantamotorsportspark.com"
+
+### Example 4: Track Rental Inquiry
+**Customer**: "We're a car club looking to rent the track for a day. How does that work?"
+
+**Response**:
+"AMP's main circuit is available for private rental - great for car clubs, HPDE organizations, and corporate events.
+
+**What's included in a track rental:**
+- Full use of the 2-mile, 16-turn road course
+- Paddock area for your participants
+- Corner marshals, race control, tow truck
+- Fire truck + ambulance crew
+- Indoor space and event support staff
+
+**Track features you'd have access to:**
+- Wet skidpad and ice hill (great for driver training)
+- Conference center with catering options
+- EV charging (Level 2 and 3), fuel station with race fuel
+- Restrooms and shower facilities
+
+**A few things to know:**
+- Sound limit is 98 dB (strictly enforced)
+- Track hours are generally 9 AM - 5 PM with a lunch break
+- Pricing varies by season and day of week
+
+For a custom quote, reach out to Jessica at **jessica@atlantamotorsportspark.com** - let her know your preferred date, expected number of participants, and any special requirements. She'll put together a package for you!"
