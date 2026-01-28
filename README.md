@@ -70,6 +70,160 @@ amp-ai-customer-service/
 
 ---
 
+## Skill Routing Flow
+
+When a customer inquiry comes in, the **Lead Qualifier** analyzes it and routes to the appropriate skill:
+
+```mermaid
+flowchart TB
+    subgraph INPUT["Customer Inquiry"]
+        A[("Email / Chat / Web Form")]
+    end
+
+    subgraph QUALIFIER["Traffic Controller"]
+        B["amp-lead-qualifier<br/>Classify Intent & Priority"]
+    end
+
+    A --> B
+
+    subgraph SKILLS["Specialized Skills"]
+        direction TB
+
+        subgraph PREMIUM["Premium Memberships"]
+            C["amp-main-track-advisor<br/>Cars & Motorcycles<br/>$25K-$100K"]
+            D["amp-karting-advisor<br/>Race Karts - Own<br/>$3,500+"]
+        end
+
+        subgraph CASUAL["No Membership Required"]
+            E["amp-concession-karting-advisor<br/>Rental Karts<br/>$39.99/session"]
+        end
+
+        subgraph SUPPORT["Support Skills"]
+            F["amp-membership-explorer<br/>Compare Options"]
+            G["amp-event-finder<br/>Calendar & Events"]
+            H["amp-rules-expert<br/>Safety & Policies"]
+            I["amp-onboarding-coordinator<br/>New Member Help"]
+        end
+    end
+
+    subgraph ESCALATE["Human Handoff"]
+        J["amp-escalation-handler<br/>Safety / Legal / Complaints"]
+        K[("Human Team<br/>Shawn / Eli / Jessica / Info")]
+    end
+
+    B -->|"road_course"| C
+    B -->|"race_karting"| D
+    B -->|"concession_karting"| E
+    B -->|"membership_comparison"| F
+    B -->|"events"| G
+    B -->|"rules"| H
+    B -->|"onboarding"| I
+    B -->|"escalation"| J
+
+    J --> K
+
+    E -.->|"wants serious racing"| D
+    E -.->|"child under 12"| D
+    F -.->|"cars/motos"| C
+    F -.->|"own kart"| D
+    F -.->|"rental karts"| E
+
+    C -.->|"pricing/availability"| K
+    D -.->|"schools/lessons"| K
+    E -.->|"group events"| K
+```
+
+### Intent Detection Keywords
+
+```mermaid
+flowchart LR
+    subgraph KEYWORDS["Customer Says..."]
+        direction TB
+        K1["Porsche, GT3, motorcycle,<br/>track day, 2-mile circuit"]
+        K2["Own kart, LO206, TaG,<br/>Kid Kart, competitive"]
+        K3["Birthday party, rental,<br/>group event, league"]
+        K4["Which membership?<br/>Confused, comparing"]
+        K5["Calendar, schedule,<br/>what's happening"]
+        K6["Helmet, safety gear,<br/>noise limit, flags"]
+        K7["Just joined, first visit,<br/>new member"]
+        K8["Refund, complaint,<br/>lawyer, ANGRY!!!"]
+    end
+
+    subgraph ROUTES["Routes To..."]
+        direction TB
+        R1["amp-main-track-advisor"]
+        R2["amp-karting-advisor"]
+        R3["amp-concession-karting-advisor"]
+        R4["amp-membership-explorer"]
+        R5["amp-event-finder"]
+        R6["amp-rules-expert"]
+        R7["amp-onboarding-coordinator"]
+        R8["amp-escalation-handler"]
+    end
+
+    K1 --> R1
+    K2 --> R2
+    K3 --> R3
+    K4 --> R4
+    K5 --> R5
+    K6 --> R6
+    K7 --> R7
+    K8 --> R8
+```
+
+### Escalation Flow
+
+```mermaid
+flowchart TB
+    subgraph TRIGGERS["Escalation Triggers"]
+        direction LR
+        T1["Safety<br/>Injury, Accident"]
+        T2["Legal<br/>Lawyer, Lawsuit"]
+        T3["Financial<br/>Refund, Billing"]
+        T4["Sentiment<br/>ALL CAPS, Angry"]
+        T5["VIP/Media<br/>Reporter, Influencer"]
+    end
+
+    subgraph HANDLER["amp-escalation-handler"]
+        H1["Acknowledge concern"]
+        H2["Summarize for human"]
+        H3["Set expectations"]
+        H4["Route to contact"]
+    end
+
+    subgraph HUMANS["Human Team"]
+        direction LR
+        P1["Shawn<br/>Membership"]
+        P2["Eli<br/>Karting"]
+        P3["Jessica<br/>Events"]
+        P4["Info<br/>General"]
+    end
+
+    T1 --> H1
+    T2 --> H1
+    T3 --> H1
+    T4 --> H1
+    T5 --> H1
+
+    H1 --> H2 --> H3 --> H4
+
+    H4 --> P1
+    H4 --> P2
+    H4 --> P3
+    H4 --> P4
+```
+
+### Human Contact Reference
+
+| Contact | Email | Handles |
+|---------|-------|---------|
+| **Shawn** | shawn@atlantamotorsportspark.com | Membership inquiries |
+| **Eli** | eli@ampkartracing.com | Karting schools & lessons |
+| **Jessica** | jessica@atlantamotorsportspark.com | Group events & track rentals |
+| **Info** | info@atlantamotorsportspark.com | General & complaints |
+
+---
+
 ## Environment Variables
 
 See `.env.example` for all required API keys and configuration.
