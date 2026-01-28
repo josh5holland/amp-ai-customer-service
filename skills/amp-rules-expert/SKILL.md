@@ -27,6 +27,7 @@ Provide accurate information about AMP's rules and requirements so members and v
 ## Knowledge Sources
 
 Reference these files for accurate information:
+- `knowledge/rules-and-regulations.md` - Complete AMP rules (revised 5/14/2025)
 - `knowledge/track-rules.md` - On-track behavior rules
 - `knowledge/safety-gear.md` - Personal safety equipment requirements
 - `knowledge/vehicle-requirements.md` - Vehicle prep requirements

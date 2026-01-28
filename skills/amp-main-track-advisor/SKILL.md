@@ -35,6 +35,7 @@ Help prospects understand the road course membership model, select the right tie
 
 Reference these files for accurate information:
 - `knowledge/membership-tiers.md` - Pricing and tier comparison
+- `knowledge/membership-value-messaging.md` - Core value drivers and response templates
 - `knowledge/2026-schedule.md` - What's included, track days, events
 - `knowledge/competition-options.md` - Racing series and championships
 - `knowledge/track-rentals.md` - Private track rentals for organizations

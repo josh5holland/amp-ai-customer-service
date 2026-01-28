@@ -48,6 +48,7 @@ Guide prospects through the karting membership journey - from initial interest t
 ## Knowledge Sources
 
 Reference these files for accurate information:
+- `knowledge/karting-membership-faq.md` - Complete FAQ: pricing, classes, equipment, storage, lessons
 - `knowledge/pricing.md` - Membership tiers and costs
 - `knowledge/classes.md` - Age groups and engine types
 - `knowledge/equipment.md` - Kart and gear costs
