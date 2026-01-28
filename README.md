@@ -131,6 +131,18 @@ flowchart TB
     C -.->|"pricing/availability"| K
     D -.->|"schools/lessons"| K
     E -.->|"group events"| K
+
+    style A fill:#2c3e50,stroke:#f39c12,color:#fff
+    style B fill:#9b59b6,stroke:#8e44ad,color:#fff
+    style C fill:#e74c3c,stroke:#c0392b,color:#fff
+    style D fill:#3498db,stroke:#2980b9,color:#fff
+    style E fill:#2ecc71,stroke:#27ae60,color:#fff
+    style F fill:#f39c12,stroke:#d35400,color:#fff
+    style G fill:#1abc9c,stroke:#16a085,color:#fff
+    style H fill:#e67e22,stroke:#d35400,color:#fff
+    style I fill:#9b59b6,stroke:#8e44ad,color:#fff
+    style J fill:#c0392b,stroke:#922b21,color:#fff
+    style K fill:#34495e,stroke:#2c3e50,color:#fff
 ```
 
 ### Intent Detection Keywords
@@ -169,6 +181,23 @@ flowchart LR
     K6 --> R6
     K7 --> R7
     K8 --> R8
+
+    style K1 fill:#e74c3c,color:#fff
+    style K2 fill:#3498db,color:#fff
+    style K3 fill:#2ecc71,color:#fff
+    style K4 fill:#f39c12,color:#fff
+    style K5 fill:#1abc9c,color:#fff
+    style K6 fill:#e67e22,color:#fff
+    style K7 fill:#9b59b6,color:#fff
+    style K8 fill:#c0392b,color:#fff
+    style R1 fill:#e74c3c,color:#fff
+    style R2 fill:#3498db,color:#fff
+    style R3 fill:#2ecc71,color:#fff
+    style R4 fill:#f39c12,color:#fff
+    style R5 fill:#1abc9c,color:#fff
+    style R6 fill:#e67e22,color:#fff
+    style R7 fill:#9b59b6,color:#fff
+    style R8 fill:#c0392b,color:#fff
 ```
 
 ### Escalation Flow
@@ -211,6 +240,20 @@ flowchart TB
     H4 --> P2
     H4 --> P3
     H4 --> P4
+
+    style T1 fill:#c0392b,color:#fff
+    style T2 fill:#8e44ad,color:#fff
+    style T3 fill:#d35400,color:#fff
+    style T4 fill:#c0392b,color:#fff
+    style T5 fill:#2980b9,color:#fff
+    style H1 fill:#34495e,color:#fff
+    style H2 fill:#34495e,color:#fff
+    style H3 fill:#34495e,color:#fff
+    style H4 fill:#34495e,color:#fff
+    style P1 fill:#27ae60,color:#fff
+    style P2 fill:#27ae60,color:#fff
+    style P3 fill:#27ae60,color:#fff
+    style P4 fill:#27ae60,color:#fff
 ```
 
 ### Human Contact Reference
