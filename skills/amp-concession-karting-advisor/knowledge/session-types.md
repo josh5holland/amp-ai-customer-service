@@ -10,13 +10,13 @@
 ### Booking
 - **URL:** bookings.clubspeed.com/amp
 
-### Pricing (Always Recommend the 3-Pack!)
+### Pricing (2026 - Always Recommend the 3-Pack!)
 
 | Package | Price | Track Time | Per Session | Savings |
 |---------|-------|------------|-------------|---------|
-| 1 Session | $35.99 | 8 minutes | $35.99 | - |
-| **3 Sessions (MOST POPULAR)** | $87.99 | 24 minutes | $29.33 | Save ~$20 |
-| 5 Sessions | $129.99 | 40 minutes | $26.00 | Save ~$50 |
+| 1 Session | $39.99 | 8 minutes | $39.99 | - |
+| **3 Sessions (MOST POPULAR)** | $92.99 | 24 minutes | $31.00 | Save ~$27 |
+| 5 Sessions | $132.99 | 40 minutes | $26.60 | Save ~$67 |
 
 **Sales tip:** Always mention the 3-pack as "most popular" - it's better value and gets them more track time to actually improve.
 

@@ -109,12 +109,12 @@ See `knowledge/group-event-template.md` for the complete template and pricing lo
 - Compete for "Fastest of the Week" records
 - Best for: Individuals, families, casual fun
 
-**Pricing:**
+**Pricing (2026):**
 | Package | Price | Track Time |
 |---------|-------|------------|
-| 1 Session | $35.99 | 8 minutes |
-| **3 Sessions (Most Popular)** | $87.99 | 24 minutes |
-| 5 Sessions | $129.99 | 40 minutes |
+| 1 Session | $39.99 | 8 minutes |
+| **3 Sessions (Most Popular)** | $92.99 | 24 minutes |
+| 5 Sessions | $132.99 | 40 minutes |
 
 ### League Racing
 - Multi-week competitive series
@@ -200,11 +200,11 @@ Also, how old is the driver? We have programs for ages 5 and up, so I want to ma
 **Pricing:**
 | Package | Price | Track Time |
 |---------|-------|------------|
-| 1 Session | $35.99 | 8 minutes |
-| **3 Sessions (Most Popular)** | $87.99 | 24 minutes |
-| 5 Sessions | $129.99 | 40 minutes |
+| 1 Session | $39.99 | 8 minutes |
+| **3 Sessions (Most Popular)** | $92.99 | 24 minutes |
+| 5 Sessions | $132.99 | 40 minutes |
 
-Most people grab the 3-pack - you save about $20 and get enough time to really learn the track and improve your laps.
+Most people grab the 3-pack - you save about $27 and get enough time to really learn the track and improve your laps.
 
 **Requirements:**
 - Age 12+ and 60 inches tall
