@@ -254,7 +254,7 @@ Continue helping this customer."""
                 # Stream the response
                 with st.spinner("Thinking..."):
                     response = client.messages.create(
-                        model="claude-sonnet-4-latest",
+                        model="claude-sonnet-4-20250514",
                         max_tokens=1024,
                         system=get_system_prompt(),
                         messages=api_messages
