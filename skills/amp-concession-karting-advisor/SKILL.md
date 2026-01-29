@@ -50,6 +50,7 @@ Reference these files for accurate information:
 - `knowledge/requirements.md` - Age, height, what to wear
 - `knowledge/junior-discovery.md` - Kids under 12 options
 - `knowledge/group-event-template.md` - Group/birthday event response template
+- `knowledge/fuel-kitchen.md` - On-site restaurant info for group events
 
 ---
 
