@@ -1,0 +1,68 @@
+flowchart TB
+    subgraph INPUT["Customer Inquiry"]
+        A[("Email / Chat / Web Form")]
+    end
+
+    subgraph QUALIFIER["Traffic Controller"]
+        B["amp-lead-qualifier\nClassify Intent & Priority"]
+    end
+
+    A --> B
+
+    subgraph SKILLS["Specialized Skills"]
+        direction TB
+
+        subgraph PREMIUM["Premium Memberships"]
+            C["amp-main-track-advisor\nCars & Motorcycles\n$25K-$100K"]
+            D["amp-karting-advisor\nRace Karts - Own\n$3,500+"]
+        end
+
+        subgraph CASUAL["No Membership Required"]
+            E["amp-concession-karting-advisor\nRental Karts\n$39.99/session"]
+        end
+
+        subgraph SUPPORT["Support Skills"]
+            F["amp-membership-explorer\nCompare Options"]
+            G["amp-event-finder\nCalendar & Events"]
+            H["amp-rules-expert\nSafety & Policies"]
+            I["amp-onboarding-coordinator\nNew Member Help"]
+        end
+    end
+
+    subgraph ESCALATE["Human Handoff"]
+        J["amp-escalation-handler\nSafety / Legal / Complaints"]
+        K[("Human Team\nShawn / Eli / Jessica / Info")]
+    end
+
+    B -->|"road_course"| C
+    B -->|"race_karting"| D
+    B -->|"concession_karting"| E
+    B -->|"membership_comparison"| F
+    B -->|"events"| G
+    B -->|"rules"| H
+    B -->|"onboarding"| I
+    B -->|"escalation"| J
+
+    J --> K
+
+    E -.->|"wants serious racing"| D
+    E -.->|"child under 12"| D
+    F -.->|"cars/motos"| C
+    F -.->|"own kart"| D
+    F -.->|"rental karts"| E
+
+    C -.->|"pricing/availability"| K
+    D -.->|"schools/lessons"| K
+    E -.->|"group events"| K
+
+    style A fill:#2c3e50,stroke:#f39c12,color:#fff
+    style B fill:#9b59b6,stroke:#8e44ad,color:#fff
+    style C fill:#e74c3c,stroke:#c0392b,color:#fff
+    style D fill:#3498db,stroke:#2980b9,color:#fff
+    style E fill:#2ecc71,stroke:#27ae60,color:#fff
+    style F fill:#f39c12,stroke:#d35400,color:#fff
+    style G fill:#1abc9c,stroke:#16a085,color:#fff
+    style H fill:#e67e22,stroke:#d35400,color:#fff
+    style I fill:#9b59b6,stroke:#8e44ad,color:#fff
+    style J fill:#c0392b,stroke:#922b21,color:#fff
+    style K fill:#34495e,stroke:#2c3e50,color:#fff

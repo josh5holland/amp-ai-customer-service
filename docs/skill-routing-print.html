@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AMP Customer Service Skill Routing</title>
+    <style>
+        @page {
+            size: landscape;
+            margin: 0.4in;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #fff;
+            color: #333;
+            padding: 20px;
+        }
+        .page {
+            page-break-after: always;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .page:last-child {
+            page-break-after: avoid;
+        }
+        h1 {
+            text-align: center;
+            color: #e74c3c;
+            font-size: 2.2em;
+            margin-bottom: 5px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 20px;
+            font-size: 1.1em;
+        }
+        h2 {
+            color: #e74c3c;
+            font-size: 1.4em;
+            border-bottom: 3px solid #e74c3c;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+            margin: 20px 0 30px 0;
+        }
+        .stat {
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 3em;
+            font-weight: bold;
+            color: #e74c3c;
+        }
+        .stat-label {
+            color: #666;
+        }
+        .diagram-img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .legend {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+            margin-top: 15px;
+        }
+        .legend-item {
+            background: #f5f5f5;
+            border-radius: 8px;
+            padding: 12px;
+            border-left: 4px solid;
+        }
+        .legend-item.qualifier { border-color: #9b59b6; }
+        .legend-item.road { border-color: #e74c3c; }
+        .legend-item.race-kart { border-color: #3498db; }
+        .legend-item.concession { border-color: #2ecc71; }
+        .legend-item.explorer { border-color: #f39c12; }
+        .legend-item.events { border-color: #1abc9c; }
+        .legend-item.rules { border-color: #e67e22; }
+        .legend-item.onboarding { border-color: #9b59b6; }
+        .legend-item.escalation { border-color: #c0392b; }
+        .legend-item h3 {
+            font-size: 0.9em;
+            margin-bottom: 3px;
+            color: #333;
+        }
+        .legend-item p {
+            font-size: 0.75em;
+            color: #666;
+            margin: 0;
+        }
+        .legend-item .price {
+            font-size: 0.7em;
+            color: #e74c3c;
+            margin-top: 3px;
+            font-weight: bold;
+        }
+        .contacts-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .contacts-table th, .contacts-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        .contacts-table th {
+            background: #e74c3c;
+            color: white;
+        }
+        .contacts-table tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <!-- Page 1: Title + Main Flow -->
+    <div class="page">
+        <h1>AMP Customer Service AI</h1>
+        <p class="subtitle">Skill Routing Architecture</p>
+
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-number">9</div>
+                <div class="stat-label">Skills</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">8</div>
+                <div class="stat-label">Intent Categories</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Human Contacts</div>
+            </div>
+        </div>
+
+        <h2>Main Routing Flow</h2>
+        <img src="diagrams/main-flow.png" alt="Main Routing Flow" class="diagram-img">
+    </div>
+
+    <!-- Page 2: Keywords -->
+    <div class="page">
+        <h2>Intent Detection Keywords</h2>
+        <img src="diagrams/keywords.png" alt="Intent Keywords" class="diagram-img" style="max-height: 400px;">
+
+        <h2 style="margin-top: 30px;">Escalation Triggers</h2>
+        <img src="diagrams/escalation.png" alt="Escalation Flow" class="diagram-img" style="max-height: 350px;">
+    </div>
+
+    <!-- Page 3: Legend + Contacts -->
+    <div class="page">
+        <h2>Skill Reference</h2>
+        <div class="legend">
+            <div class="legend-item qualifier">
+                <h3>amp-lead-qualifier</h3>
+                <p>Traffic controller - classifies intent & routes</p>
+            </div>
+            <div class="legend-item road">
+                <h3>amp-main-track-advisor</h3>
+                <p>Road course for cars & motorcycles</p>
+                <div class="price">$25,000 - $100,000</div>
+            </div>
+            <div class="legend-item race-kart">
+                <h3>amp-karting-advisor</h3>
+                <p>Race karting (own your kart)</p>
+                <div class="price">$3,500+ | Age 5+</div>
+            </div>
+            <div class="legend-item concession">
+                <h3>amp-concession-karting-advisor</h3>
+                <p>Rental karting - no membership</p>
+                <div class="price">$39.99/session | Age 12+</div>
+            </div>
+            <div class="legend-item explorer">
+                <h3>amp-membership-explorer</h3>
+                <p>Compare options, route to specialists</p>
+            </div>
+            <div class="legend-item events">
+                <h3>amp-event-finder</h3>
+                <p>Calendar, upcoming events</p>
+            </div>
+            <div class="legend-item rules">
+                <h3>amp-rules-expert</h3>
+                <p>Safety gear, track rules, flags</p>
+            </div>
+            <div class="legend-item onboarding">
+                <h3>amp-onboarding-coordinator</h3>
+                <p>New member orientation</p>
+            </div>
+            <div class="legend-item escalation">
+                <h3>amp-escalation-handler</h3>
+                <p>Human handoff for complex issues</p>
+            </div>
+        </div>
+
+        <h2 style="margin-top: 30px;">Human Contact Reference</h2>
+        <table class="contacts-table">
+            <tr>
+                <th>Contact</th>
+                <th>Email</th>
+                <th>Handles</th>
+            </tr>
+            <tr>
+                <td><strong>Shawn</strong></td>
+                <td>shawn@atlantamotorsportspark.com</td>
+                <td>Membership inquiries (road course & karting)</td>
+            </tr>
+            <tr>
+                <td><strong>Eli</strong></td>
+                <td>eli@ampkartracing.com</td>
+                <td>Karting schools, lessons, race program</td>
+            </tr>
+            <tr>
+                <td><strong>Jessica</strong></td>
+                <td>jessica@atlantamotorsportspark.com</td>
+                <td>Group events, birthdays, track rentals</td>
+            </tr>
+            <tr>
+                <td><strong>Info</strong></td>
+                <td>info@atlantamotorsportspark.com</td>
+                <td>General inquiries, complaints, unknown</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

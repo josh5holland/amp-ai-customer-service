@@ -1,0 +1,51 @@
+flowchart TB
+    subgraph TRIGGERS["Escalation Triggers"]
+        direction LR
+        T1["Safety\nInjury, Accident,\nUnsafe conditions"]
+        T2["Legal\nLawyer, Lawsuit,\nInsurance claim"]
+        T3["Financial\nRefund, Billing,\nOvercharge"]
+        T4["Sentiment\nALL CAPS, !!!,\nAngry language"]
+        T5["VIP/Media\nReporter, Influencer,\nCelebrity"]
+    end
+
+    subgraph HANDLER["amp-escalation-handler"]
+        H1["Acknowledge concern"]
+        H2["Summarize for human"]
+        H3["Set expectations"]
+        H4["Route to contact"]
+    end
+
+    subgraph HUMANS["Human Team"]
+        direction LR
+        P1["Shawn\nMembership"]
+        P2["Eli\nKarting"]
+        P3["Jessica\nEvents"]
+        P4["Info\nGeneral"]
+    end
+
+    T1 --> H1
+    T2 --> H1
+    T3 --> H1
+    T4 --> H1
+    T5 --> H1
+
+    H1 --> H2 --> H3 --> H4
+
+    H4 --> P1
+    H4 --> P2
+    H4 --> P3
+    H4 --> P4
+
+    style T1 fill:#c0392b,color:#fff
+    style T2 fill:#8e44ad,color:#fff
+    style T3 fill:#d35400,color:#fff
+    style T4 fill:#c0392b,color:#fff
+    style T5 fill:#2980b9,color:#fff
+    style H1 fill:#34495e,color:#fff
+    style H2 fill:#34495e,color:#fff
+    style H3 fill:#34495e,color:#fff
+    style H4 fill:#34495e,color:#fff
+    style P1 fill:#27ae60,color:#fff
+    style P2 fill:#27ae60,color:#fff
+    style P3 fill:#27ae60,color:#fff
+    style P4 fill:#27ae60,color:#fff

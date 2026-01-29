@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMP Customer Service Skill Routing</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            color: #fff;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+            background: linear-gradient(90deg, #f39c12, #e74c3c);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .subtitle {
+            text-align: center;
+            color: #888;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+        .diagram-section {
+            background: rgba(255,255,255,0.05);
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 30px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .diagram-section h2 {
+            color: #f39c12;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+            border-bottom: 2px solid #f39c12;
+            padding-bottom: 10px;
+        }
+        .mermaid {
+            background: #fff;
+            border-radius: 12px;
+            padding: 20px;
+            overflow-x: auto;
+        }
+        .legend {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 15px;
+            margin-top: 30px;
+        }
+        .legend-item {
+            background: rgba(255,255,255,0.08);
+            border-radius: 10px;
+            padding: 15px;
+            border-left: 4px solid;
+        }
+        .legend-item.qualifier { border-color: #9b59b6; }
+        .legend-item.road { border-color: #e74c3c; }
+        .legend-item.race-kart { border-color: #3498db; }
+        .legend-item.concession { border-color: #2ecc71; }
+        .legend-item.explorer { border-color: #f39c12; }
+        .legend-item.events { border-color: #1abc9c; }
+        .legend-item.rules { border-color: #e67e22; }
+        .legend-item.onboarding { border-color: #9b59b6; }
+        .legend-item.escalation { border-color: #c0392b; }
+        .legend-item h3 {
+            font-size: 1em;
+            margin-bottom: 5px;
+        }
+        .legend-item p {
+            font-size: 0.85em;
+            color: #aaa;
+            margin: 0;
+        }
+        .legend-item .price {
+            font-size: 0.8em;
+            color: #f39c12;
+            margin-top: 5px;
+        }
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+        .stat {
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 3em;
+            font-weight: bold;
+            color: #f39c12;
+        }
+        .stat-label {
+            color: #888;
+            font-size: 0.9em;
+        }
+
+        /* Print styles - landscape orientation and prevent bad page breaks */
+        @page {
+            size: landscape;
+            margin: 0.5in;
+        }
+
+        @media print {
+            body {
+                background: #fff !important;
+                color: #000 !important;
+                padding: 0;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+
+            .container {
+                max-width: 100%;
+            }
+
+            h1 {
+                color: #e74c3c !important;
+                -webkit-text-fill-color: #e74c3c !important;
+                background: none !important;
+            }
+
+            .subtitle {
+                color: #666 !important;
+            }
+
+            .stats {
+                margin-bottom: 20px;
+            }
+
+            .diagram-section {
+                background: #f5f5f5 !important;
+                border: 2px solid #ddd !important;
+                margin-bottom: 15px;
+                padding: 15px;
+            }
+
+            .diagram-section h2 {
+                color: #e74c3c !important;
+                border-color: #e74c3c !important;
+                margin-bottom: 10px;
+            }
+
+            .mermaid {
+                background: #fff !important;
+            }
+
+            .legend-item {
+                background: #f0f0f0 !important;
+            }
+
+            .legend-item p {
+                color: #444 !important;
+            }
+
+            .legend-item .price {
+                color: #e74c3c !important;
+            }
+
+            .stat-number {
+                color: #e74c3c !important;
+            }
+
+            .stat-label {
+                color: #666 !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>AMP Customer Service AI</h1>
+        <p class="subtitle">Skill Routing Architecture</p>
+
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-number">9</div>
+                <div class="stat-label">Skills</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">8</div>
+                <div class="stat-label">Intent Categories</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Human Contacts</div>
+            </div>
+        </div>
+
+        <div class="diagram-section">
+            <h2>Main Routing Flow</h2>
+            <pre class="mermaid">
+flowchart TB
+    subgraph INPUT["Customer Inquiry"]
+        A[("Email / Chat / Web Form")]
+    end
+
+    subgraph QUALIFIER["Traffic Controller"]
+        B["amp-lead-qualifier<br/>Classify Intent & Priority"]
+    end
+
+    A --> B
+
+    subgraph SKILLS["Specialized Skills"]
+        direction TB
+
+        subgraph PREMIUM["Premium Memberships"]
+            C["amp-main-track-advisor<br/>Cars & Motorcycles<br/>$25K-$100K"]
+            D["amp-karting-advisor<br/>Race Karts (Own)<br/>$3,500+"]
+        end
+
+        subgraph CASUAL["No Membership Required"]
+            E["amp-concession-karting-advisor<br/>Rental Karts<br/>$39.99/session"]
+        end
+
+        subgraph SUPPORT["Support Skills"]
+            F["amp-membership-explorer<br/>Compare Options"]
+            G["amp-event-finder<br/>Calendar & Events"]
+            H["amp-rules-expert<br/>Safety & Policies"]
+            I["amp-onboarding-coordinator<br/>New Member Help"]
+        end
+    end
+
+    subgraph ESCALATE["Human Handoff"]
+        J["amp-escalation-handler<br/>Safety / Legal / Complaints"]
+        K[("Human Team<br/>Shawn / Eli / Jessica / Info")]
+    end
+
+    B -->|"road_course"| C
+    B -->|"race_karting"| D
+    B -->|"concession_karting"| E
+    B -->|"membership_comparison"| F
+    B -->|"events"| G
+    B -->|"rules"| H
+    B -->|"onboarding"| I
+    B -->|"escalation"| J
+
+    J --> K
+
+    E -.->|"wants serious racing"| D
+    E -.->|"child under 12"| D
+    F -.->|"cars/motos"| C
+    F -.->|"own kart"| D
+    F -.->|"rental karts"| E
+
+    C -.->|"pricing/availability"| K
+    D -.->|"schools/lessons"| K
+    E -.->|"group events"| K
+
+    style A fill:#2c3e50,stroke:#f39c12,color:#fff
+    style B fill:#9b59b6,stroke:#8e44ad,color:#fff
+    style C fill:#e74c3c,stroke:#c0392b,color:#fff
+    style D fill:#3498db,stroke:#2980b9,color:#fff
+    style E fill:#2ecc71,stroke:#27ae60,color:#fff
+    style F fill:#f39c12,stroke:#d35400,color:#fff
+    style G fill:#1abc9c,stroke:#16a085,color:#fff
+    style H fill:#e67e22,stroke:#d35400,color:#fff
+    style I fill:#9b59b6,stroke:#8e44ad,color:#fff
+    style J fill:#c0392b,stroke:#922b21,color:#fff
+    style K fill:#34495e,stroke:#2c3e50,color:#fff
+            </pre>
+        </div>
+
+        <div class="diagram-section">
+            <h2>Intent Detection Keywords</h2>
+            <pre class="mermaid">
+flowchart LR
+    subgraph KEYWORDS["Customer Says..."]
+        direction TB
+        K1["Porsche, GT3, motorcycle,<br/>track day, 2-mile circuit"]
+        K2["Own kart, LO206, TaG,<br/>Kid Kart, competitive"]
+        K3["Birthday party, rental,<br/>group event, league"]
+        K4["Which membership?<br/>Confused, comparing"]
+        K5["Calendar, schedule,<br/>what's happening"]
+        K6["Helmet, safety gear,<br/>noise limit, flags"]
+        K7["Just joined, first visit,<br/>new member"]
+        K8["Refund, complaint,<br/>lawyer, ANGRY!!!"]
+    end
+
+    subgraph ROUTES["Routes To..."]
+        direction TB
+        R1["amp-main-track-advisor"]
+        R2["amp-karting-advisor"]
+        R3["amp-concession-karting-advisor"]
+        R4["amp-membership-explorer"]
+        R5["amp-event-finder"]
+        R6["amp-rules-expert"]
+        R7["amp-onboarding-coordinator"]
+        R8["amp-escalation-handler"]
+    end
+
+    K1 --> R1
+    K2 --> R2
+    K3 --> R3
+    K4 --> R4
+    K5 --> R5
+    K6 --> R6
+    K7 --> R7
+    K8 --> R8
+
+    style K1 fill:#e74c3c,color:#fff
+    style K2 fill:#3498db,color:#fff
+    style K3 fill:#2ecc71,color:#fff
+    style K4 fill:#f39c12,color:#fff
+    style K5 fill:#1abc9c,color:#fff
+    style K6 fill:#e67e22,color:#fff
+    style K7 fill:#9b59b6,color:#fff
+    style K8 fill:#c0392b,color:#fff
+
+    style R1 fill:#e74c3c,color:#fff
+    style R2 fill:#3498db,color:#fff
+    style R3 fill:#2ecc71,color:#fff
+    style R4 fill:#f39c12,color:#fff
+    style R5 fill:#1abc9c,color:#fff
+    style R6 fill:#e67e22,color:#fff
+    style R7 fill:#9b59b6,color:#fff
+    style R8 fill:#c0392b,color:#fff
+            </pre>
+        </div>
+
+        <div class="diagram-section">
+            <h2>Escalation Triggers</h2>
+            <pre class="mermaid">
+flowchart TB
+    subgraph TRIGGERS["Escalation Triggers"]
+        direction LR
+        T1["Safety<br/>Injury, Accident,<br/>Unsafe conditions"]
+        T2["Legal<br/>Lawyer, Lawsuit,<br/>Insurance claim"]
+        T3["Financial<br/>Refund, Billing,<br/>Overcharge"]
+        T4["Sentiment<br/>ALL CAPS, !!!,<br/>Angry language"]
+        T5["VIP/Media<br/>Reporter, Influencer,<br/>Celebrity"]
+    end
+
+    subgraph HANDLER["amp-escalation-handler"]
+        H1["Acknowledge concern"]
+        H2["Summarize for human"]
+        H3["Set expectations"]
+        H4["Route to contact"]
+    end
+
+    subgraph HUMANS["Human Team"]
+        direction LR
+        P1["Shawn<br/>Membership"]
+        P2["Eli<br/>Karting"]
+        P3["Jessica<br/>Events"]
+        P4["Info<br/>General"]
+    end
+
+    T1 --> H1
+    T2 --> H1
+    T3 --> H1
+    T4 --> H1
+    T5 --> H1
+
+    H1 --> H2 --> H3 --> H4
+
+    H4 --> P1
+    H4 --> P2
+    H4 --> P3
+    H4 --> P4
+
+    style T1 fill:#c0392b,color:#fff
+    style T2 fill:#8e44ad,color:#fff
+    style T3 fill:#d35400,color:#fff
+    style T4 fill:#c0392b,color:#fff
+    style T5 fill:#2980b9,color:#fff
+    style H1 fill:#34495e,color:#fff
+    style H2 fill:#34495e,color:#fff
+    style H3 fill:#34495e,color:#fff
+    style H4 fill:#34495e,color:#fff
+    style P1 fill:#27ae60,color:#fff
+    style P2 fill:#27ae60,color:#fff
+    style P3 fill:#27ae60,color:#fff
+    style P4 fill:#27ae60,color:#fff
+            </pre>
+        </div>
+
+        <div class="diagram-section">
+            <h2>Example Customer Journey: "I want to do karting"</h2>
+            <pre class="mermaid">
+sequenceDiagram
+    participant C as Customer
+    participant LQ as Lead Qualifier
+    participant CK as Concession Karting
+    participant RK as Race Karting
+    participant H as Human (Jessica)
+
+    C->>LQ: "I want to do karting"
+    Note over LQ: Intent unclear<br/>Could be rental or race
+    LQ->>CK: Route (assumption: casual)
+    CK->>C: "Casual or competitive?<br/>How old is the driver?"
+    C->>CK: "Casual, I'm 30"
+    Note over CK: Age 30 > 12 ✓<br/>Casual = rental karts
+    CK->>C: "Great! $39.99/session<br/>Book at clubspeed.com/amp"
+
+    Note over C,H: --- OR if they said "birthday for my 8-year-old" ---
+
+    C->>CK: "Birthday for my 8-year-old"
+    Note over CK: Age 8 < 12<br/>Cannot use rental karts
+    CK->>RK: Re-route to Junior Discovery
+    RK->>C: "Junior Discovery Experience<br/>$249, ages 5-11<br/>Everything provided!"
+            </pre>
+        </div>
+
+        <div class="diagram-section">
+            <h2>Skill Legend</h2>
+            <div class="legend">
+                <div class="legend-item qualifier">
+                    <h3>amp-lead-qualifier</h3>
+                    <p>Traffic controller - classifies intent, priority, and routes to appropriate skill</p>
+                </div>
+                <div class="legend-item road">
+                    <h3>amp-main-track-advisor</h3>
+                    <p>Road course membership for cars & motorcycles</p>
+                    <div class="price">$25,000 - $100,000 initiation</div>
+                </div>
+                <div class="legend-item race-kart">
+                    <h3>amp-karting-advisor</h3>
+                    <p>Race karting membership (own your kart)</p>
+                    <div class="price">$3,500+ initiation | Age 5+</div>
+                </div>
+                <div class="legend-item concession">
+                    <h3>amp-concession-karting-advisor</h3>
+                    <p>Rental karting - no membership required</p>
+                    <div class="price">$39.99/session | Age 12+</div>
+                </div>
+                <div class="legend-item explorer">
+                    <h3>amp-membership-explorer</h3>
+                    <p>Helps confused customers compare options and routes to specialists</p>
+                </div>
+                <div class="legend-item events">
+                    <h3>amp-event-finder</h3>
+                    <p>Calendar info, upcoming events, public vs member events</p>
+                </div>
+                <div class="legend-item rules">
+                    <h3>amp-rules-expert</h3>
+                    <p>Safety gear, track rules, vehicle requirements, flag meanings</p>
+                </div>
+                <div class="legend-item onboarding">
+                    <h3>amp-onboarding-coordinator</h3>
+                    <p>New member orientation and first visit preparation</p>
+                </div>
+                <div class="legend-item escalation">
+                    <h3>amp-escalation-handler</h3>
+                    <p>Recognizes when human intervention needed, smooth handoff</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="diagram-section">
+            <h2>Human Contact Reference</h2>
+            <pre class="mermaid">
+flowchart LR
+    subgraph CONTACTS["Key Contacts"]
+        S["Shawn<br/>shawn@amp<br/>Membership"]
+        E["Eli<br/>eli@ampkartracing<br/>Karting Schools"]
+        J["Jessica<br/>jessica@amp<br/>Group Events"]
+        I["Info<br/>info@amp<br/>General"]
+    end
+
+    subgraph TOPICS["Routes From"]
+        T1["Road Course<br/>Membership"]
+        T2["Race Karting<br/>Schools/Lessons"]
+        T3["Group Events<br/>Birthdays<br/>Track Rentals"]
+        T4["General<br/>Complaints<br/>Unknown"]
+    end
+
+    T1 --> S
+    T2 --> E
+    T3 --> J
+    T4 --> I
+
+    style S fill:#27ae60,color:#fff
+    style E fill:#3498db,color:#fff
+    style J fill:#9b59b6,color:#fff
+    style I fill:#34495e,color:#fff
+            </pre>
+        </div>
+
+    </div>
+
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            flowchart: {
+                useMaxWidth: true,
+                htmlLabels: true,
+                curve: 'basis'
+            },
+            sequence: {
+                useMaxWidth: true,
+                wrap: true
+            }
+        });
+    </script>
+</body>
+</html>
