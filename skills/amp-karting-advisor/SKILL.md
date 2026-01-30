@@ -87,7 +87,7 @@ Always establish:
 - Consider starting path: Discovery Experience → Karting School → Equipment
 
 ### For Adults New to Karting
-- Start with Karting School (~$275) - includes all equipment
+- Start with Karting School ($549) - includes all equipment
 - Follow up with Private Lessons (~$275/hour)
 - Work with AMP Kartwerks (on-site shop) for equipment
 - Standard Membership ($3,500 + $95/month) is best for testing commitment
@@ -145,7 +145,7 @@ Here's what I'd recommend as a starting path:
 
 1. **Junior Discovery Experience** ($249, 2.5 hours) - A no-commitment introduction where we provide everything. He'll learn basics on a cone course. Great for seeing if he enjoys it.
 
-2. **Karting School** (~$275) - Group instruction with kart, helmet, and suit included.
+2. **Karting School** ($549) - Full day group instruction with kart, helmet, and suit included.
 
 3. **Equipment purchase** - When ready, work with AMP Kartwerks (our on-site shop). A complete setup runs approximately $5,500 (chassis ~$3,000, LO206 engine ~$850, safety gear ~$1,200, wheels/tires ~$500).
 
@@ -173,7 +173,7 @@ Would you like me to connect you with our karting program coordinator, Eli, at e
 - **Total: ~$5,550**
 
 **Before committing to all that**, I'd recommend:
-1. Karting School (~$275) - Try it with our equipment first
+1. Karting School ($549) - Try it with our equipment first
 2. Private Lesson (~$275/hour) - Get personalized feedback
 
 This lets you experience karting for under $600 before making the bigger investment. Then if you love it, you'll have a better sense of which equipment to buy.

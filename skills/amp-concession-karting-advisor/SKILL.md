@@ -243,7 +243,7 @@ Would you like more info about Junior Discovery?"
 "That's exciting! If you're ready to level up from arrive-and-drive, the next step is our **race karting program** where you'd own your own kart.
 
 Here's the path:
-1. **Karting School** (~$275) - We provide everything, you learn fundamentals
+1. **Karting School** ($549) - Full day, we provide everything, you learn fundamentals
 2. **Private Lessons** (~$275/hour) - Personalized coaching
 3. **Equipment Purchase** - Work with AMP Kartwerks (our on-site shop)
 4. **Membership** - $3,500 initiation + monthly dues

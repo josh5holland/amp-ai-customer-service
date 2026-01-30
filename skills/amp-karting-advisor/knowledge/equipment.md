@@ -98,7 +98,7 @@
 **Before investing in equipment, consider:**
 
 1. **Junior Discovery Experience** ($249) - Ages 5-11, no commitment
-2. **Karting School** (~$275) - All equipment provided
+2. **Karting School** ($549) - Full day, all equipment provided
 3. **Private Lessons** (~$275/hour) - Personalized instruction
 
 This lets you experience karting for under $600 before making the $5,000+ equipment investment.

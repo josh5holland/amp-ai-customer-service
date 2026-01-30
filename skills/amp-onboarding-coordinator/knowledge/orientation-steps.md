@@ -51,7 +51,7 @@
 ### Step 2: Training (For New Karters)
 
 **Option A: Already Own Kart**
-- Karting School recommended (~$275)
+- Karting School recommended ($549)
 - Private lesson recommended (~$275/hour)
 
 **Option B: Need to Buy Kart**

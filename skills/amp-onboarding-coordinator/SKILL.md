@@ -218,7 +218,7 @@ Would you like tips on any specific aspect - the car prep, track procedures, or 
 
 Here's your path from new kart owner to racing:
 
-**Step 1: Karting School (~$275)**
+**Step 1: Karting School ($549)**
 Even with your own kart, I highly recommend attending Karting School first. You'll learn:
 - Proper racing lines
 - Braking and cornering technique

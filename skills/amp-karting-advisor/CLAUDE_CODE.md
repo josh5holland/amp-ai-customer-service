@@ -83,7 +83,7 @@ Is this their first motorsports experience?
 ```
 Is the driver age 5-11?
 ├── Yes → Junior Discovery Experience ($249) first
-└── No → Karting School (~$275) first
+└── No → Karting School ($549) first
 
 After first experience:
 ├── Enjoyed it → Private Lesson → Equipment Purchase → Membership
@@ -143,7 +143,7 @@ Total budget under $5,000?
 - First race should focus on finishing, not winning
 
 ### "What's the cheapest way to start?"
-- Karting School (~$275) - no commitment
+- Karting School ($549) - no commitment
 - If hooked: Standard membership + used equipment (~$8K total)
 - Upgrade path available within first year
 

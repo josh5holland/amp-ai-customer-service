@@ -21,8 +21,8 @@ From first karting school to first club race, most new karters need **3-6 months
 - Book: motorsportreg.com or (678) 381-8526
 
 ### Step 2: Karting School
-- Duration: Half-day
-- Cost: ~$275
+- Duration: Full day
+- Cost: $549
 - What's included: Kart, helmet, suit, group instruction
 - Purpose: Learn fundamentals - racing line, braking, kart control
 - Contact: eli@ampkartracing.com

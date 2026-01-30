@@ -58,7 +58,7 @@
 | Service | Cost | What's Included |
 |---------|------|-----------------|
 | Junior Discovery Experience | $249 | 2.5 hours, kart, helmet, suit, snacks (ages 5-11) |
-| Karting School | ~$275 | Group instruction, kart, helmet, suit provided |
+| Karting School | $549 | Group instruction, kart, helmet, suit provided |
 | Private Lesson | ~$275/hour | One-on-one instruction |
 
 ---

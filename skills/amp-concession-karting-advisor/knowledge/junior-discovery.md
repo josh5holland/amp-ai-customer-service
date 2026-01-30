@@ -78,7 +78,7 @@ This is educational and fun - not competitive racing.
 
 If a child loves the Junior Discovery Experience and wants more:
 
-### Option 1: Karting School (~$275)
+### Option 1: Karting School ($549)
 - Group instruction with provided equipment
 - Next level of skill development
 - Contact: eli@ampkartracing.com
@@ -116,4 +116,4 @@ Yes! Junior Discovery can be a great birthday activity for kids 5-11.
 The focus is on learning, not competition. They'll do activities on a cone course, not wheel-to-wheel racing.
 
 ### "What if they love it and want to do more?"
-Consider Karting School (~$275) as the next step, or talk to us about the race karting membership path for serious competitive karting.
+Consider Karting School ($549) as the next step, or talk to us about the race karting membership path for serious competitive karting.

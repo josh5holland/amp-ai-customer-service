@@ -92,7 +92,7 @@ Age >= 12 AND Height >= 60"?
 
 ### "I want to get serious"
 → Route to amp-karting-advisor (race karting)
-→ Suggest: Karting School (~$275) as first step
+→ Suggest: Karting School ($549) as first step
 
 ### "Group booking"
 ```
