@@ -32,7 +32,33 @@ When someone inquires about a group event, birthday party, or corporate karting:
 
 ### Closed Days
 - **Monday and Tuesday** - AMP is normally closed
-- **EXCEPTION:** For full buyouts, AMP can open on Monday or Tuesday. Contact Jessica to discuss.
+- **EXCEPTION:** For full track buyouts, AMP can open on Monday or Tuesday. Contact Jessica to discuss.
+
+---
+
+## Full Track Buyouts
+
+### What It Is
+Exclusive use of the kart track facility. Pricing is dynamic based on scope.
+
+### Typical Buyout Customers
+- HPDE (High Performance Driving Events)
+- Large corporations
+- Video/film production companies
+
+### Important: Buyouts Are NOT All-Inclusive
+A track buyout covers the kart track only. Everything else is billed separately as add-ons:
+- Fuel Kitchen catering
+- Skid pad access
+- Parking lots
+- Conference center
+- Other facilities
+
+### How to Handle Buyout Inquiries
+**Do NOT quote prices or minimums** - pricing is dynamic.
+
+**Response:**
+"Full track buyouts are definitely something we can arrange - we work with corporations, HPDE groups, and production companies regularly. For buyouts, we can even open on Mondays or Tuesdays when we're normally closed. Since pricing depends on your specific needs, I'll connect you with Jessica who handles all our buyout arrangements: jessica@atlantamotorsportspark.com"
 
 ---
 
