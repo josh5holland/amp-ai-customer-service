@@ -322,6 +322,6 @@ Looking forward to working with you!
 - Award Ceremony: $75
 - Tax: 8%
 
-**Closed:** Monday and Tuesday
+**Closed:** Monday and Tuesday (but can open for full buyouts - contact Jessica)
 
 See `knowledge/group-event-template.md` for full pricing calculations and template.

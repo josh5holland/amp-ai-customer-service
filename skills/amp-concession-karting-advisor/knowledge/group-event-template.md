@@ -31,7 +31,8 @@ When someone inquires about a group event, birthday party, or corporate karting:
 - **Tax:** 8%
 
 ### Closed Days
-- **Monday and Tuesday** - AMP is closed for group events
+- **Monday and Tuesday** - AMP is normally closed
+- **EXCEPTION:** For full buyouts, AMP can open on Monday or Tuesday. Contact Jessica to discuss.
 
 ---
 
@@ -143,4 +144,4 @@ Looking forward to working with you!
 - **Do NOT skip the template** - always send the full response
 - **Always include the award ceremony** in the quote ($75)
 - **Round tax to 2 decimal places**
-- **Monday/Tuesday inquiries:** Let them know AMP is closed those days and ask for an alternative
+- **Monday/Tuesday inquiries:** Let them know AMP is normally closed those days, BUT for full buyouts we can open. Ask if they're interested in a buyout or would prefer an alternative day.
