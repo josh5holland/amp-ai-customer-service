@@ -25,7 +25,7 @@
 
 | Item | Details |
 |------|---------|
-| Sodi rental kart | Bumpers, seatbelts, ~35 mph top speed |
+| Sodi rental kart | Bumpers, seatbelts, 55+ mph top speed |
 | Helmet | Available to borrow at no charge |
 | Safety briefing | Required before first session |
 

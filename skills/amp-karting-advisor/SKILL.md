@@ -24,7 +24,7 @@ Guides prospects through AMP's race karting membership program for people who ow
 - NO membership needed
 - Age 12+ minimum
 - Fun/entertainment focus
-- ~35 mph speed
+- 55+ mph speed
 
 **If prospect wants to RENT karts** → Route to amp-concession-karting-advisor
 

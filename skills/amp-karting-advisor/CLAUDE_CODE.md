@@ -13,7 +13,7 @@ RACE KARTING (this skill)          CONCESSION KARTING (different skill)
 ├── Membership REQUIRED            ├── NO membership needed
 ├── $3,500+ initiation             ├── Pay per session
 ├── Age 5+ minimum                 ├── Age 12+ / 60" tall minimum
-├── 40-70+ mph                     ├── ~35 mph
+├── 40-70+ mph                     ├── 55+ mph
 └── Competitive focus              └── Entertainment focus
 ```
 

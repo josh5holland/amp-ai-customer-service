@@ -12,7 +12,7 @@ CONCESSION KARTING (this skill)    RACE KARTING (different skill)
 ├── Rental Sodi karts              ├── Own personal race kart
 ├── NO membership needed           ├── Membership REQUIRED ($3,500+)
 ├── Age 12+ / 60" tall minimum     ├── Age 5+ minimum
-├── ~35 mph                        ├── 40-70+ mph
+├── 55+ mph                        ├── 40-70+ mph
 └── Entertainment focus            └── Competitive focus
 ```
 
@@ -110,7 +110,7 @@ Group size <= 10?
 
 | Item | Notes |
 |------|-------|
-| Sodi rental kart | Bumpers, seatbelts, ~35 mph |
+| Sodi rental kart | Bumpers, seatbelts, 55+ mph |
 | Helmet | Available to borrow (free) |
 | Safety briefing | Required before driving |
 

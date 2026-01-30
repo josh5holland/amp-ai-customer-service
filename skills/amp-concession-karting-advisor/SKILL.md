@@ -15,7 +15,7 @@ Helps customers book arrive-and-drive karting with rental Sodi karts. This is no
 - Rental Sodi karts provided
 - NO membership required
 - Age 12+ / 60 inches tall minimum
-- ~35 mph speed
+- 55+ mph speed
 - Entertainment/fun focus
 
 **Race Karting (DIFFERENT SKILL - amp-karting-advisor):**
