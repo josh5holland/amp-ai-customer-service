@@ -48,15 +48,28 @@
 
 ## III. WAIVER REQUIREMENTS
 
-- All members, guests, visitors must sign track release waiver
+- **Everyone** must sign waiver at the front gate when entering AMP property
 - Wristband must be worn at all times
 - Sharing wristband = 90-day suspension with dues accruing
 
-### Minors (17 and under)
+### Adults (18+)
+- Sign waiver at the gate upon arrival
+
+### Minors (Under 18)
+
+**With Parent/Legal Guardian Present:**
+- Parent/guardian signs waiver for minor at the gate
 - Must be supervised by adult at all times
-- If adult is not parent/guardian: pre-notarized waiver required
-- Both pages required: Parental Waiver + Minor's Assumptions
-- Online notarization available at www.notarize.com
+
+**Without Parent/Legal Guardian:**
+- Must print and complete the Minor Waiver form before arriving
+- Must get waiver notarized
+- Must be accompanied by an adult (any person 18+)
+- Present notarized waiver to security gate staff
+
+**Minor Waiver Form:** https://www.atlantamotorsportspark.com/wp-content/uploads/2019/04/Minor-Waiver-Notary.pdf
+
+**Online notarization:** Available at www.notarize.com
 
 ---
 

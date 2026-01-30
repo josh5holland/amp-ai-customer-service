@@ -148,6 +148,8 @@ Escalate to human when:
 
 - **Membership inquiries:** shawn@atlantamotorsportspark.com
 - **Karting schools/lessons:** eli@ampkartracing.com
+- **Group events:** jessica@atlantamotorsportspark.com
+- **HR / Employment / Legal:** hr@atlantamotorsportspark.com
 - **General info:** info@atlantamotorsportspark.com
 
 ---

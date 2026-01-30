@@ -54,6 +54,8 @@
 |-----|---------|
 | Membership | shawn@atlantamotorsportspark.com |
 | Karting schools/lessons | eli@ampkartracing.com |
+| Group events | jessica@atlantamotorsportspark.com |
+| HR / Employment / Legal | hr@atlantamotorsportspark.com |
 | General inquiries | info@atlantamotorsportspark.com |
 | Junior Discovery (phone) | (678) 381-8526 |
 

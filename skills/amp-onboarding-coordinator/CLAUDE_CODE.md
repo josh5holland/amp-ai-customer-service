@@ -67,6 +67,8 @@ Join → Welcome Email → Portal Access → Karting School → Equipment
 | Member calendar | theclub.atlantamotorsportspark.com/calendar/ |
 | Membership help | shawn@atlantamotorsportspark.com |
 | Karting program | eli@ampkartracing.com |
+| Group events | jessica@atlantamotorsportspark.com |
+| HR / Employment / Legal | hr@atlantamotorsportspark.com |
 | General help | info@atlantamotorsportspark.com |
 
 ---

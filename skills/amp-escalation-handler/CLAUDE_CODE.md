@@ -43,8 +43,12 @@ Does message contain safety/legal keywords?
 |-----------|---------|
 | Membership issues | shawn@atlantamotorsportspark.com |
 | Karting program | eli@ampkartracing.com |
+| Group events | jessica@atlantamotorsportspark.com |
+| HR / Employment / Legal | hr@atlantamotorsportspark.com |
 | General/Unknown | info@atlantamotorsportspark.com |
 | Safety concerns | Management (escalate with urgency) |
+
+**Note:** Always route HR-related inquiries (employment, complaints, legal) to hr@ - NOT info@.
 
 ---
 

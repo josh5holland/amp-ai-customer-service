@@ -27,10 +27,17 @@ Your first track day at AMP is exciting! Here's what a typical day looks like.
 
 ## When You Arrive
 
+### Waiver Requirements (Everyone)
+- **Everyone** must sign a waiver at the front gate upon arrival
+- Adults (18+): Sign at the gate
+- Minors with parent: Parent signs for minor at the gate
+- **Minors without parent:** Must bring a pre-notarized minor waiver form + be accompanied by any adult 18+
+  - Minor waiver form: https://www.atlantamotorsportspark.com/wp-content/uploads/2019/04/Minor-Waiver-Notary.pdf
+
 ### Road Course Timeline
 1. **Arrive early** (30+ minutes before session)
-2. **Find registration/check-in**
-3. **Sign waiver** (if not done online)
+2. **Sign waiver at front gate**
+3. **Find registration/check-in**
 4. **Unload and prep vehicle** in paddock
 5. **Go through tech inspection**
 6. **Attend drivers meeting** (mandatory)
@@ -38,11 +45,12 @@ Your first track day at AMP is exciting! Here's what a typical day looks like.
 
 ### Race Karting Timeline
 1. **Arrive early** (30+ minutes)
-2. **Check in** and sign waiver
-3. **Unload kart** (or get assigned equipment)
-4. **Prep kart** in pit area
-5. **Attend safety briefing**
-6. **Wait for track to open**
+2. **Sign waiver at front gate**
+3. **Check in at track**
+4. **Unload kart** (or get assigned equipment)
+5. **Prep kart** in pit area
+6. **Attend safety briefing**
+7. **Wait for track to open**
 
 ---
 

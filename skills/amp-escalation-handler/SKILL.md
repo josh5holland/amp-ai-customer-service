@@ -123,8 +123,12 @@ Reference these files for accurate information:
 |-----------|---------|
 | Membership | shawn@atlantamotorsportspark.com |
 | Karting program | eli@ampkartracing.com |
+| Group events | jessica@atlantamotorsportspark.com |
+| HR / Employment / Legal | hr@atlantamotorsportspark.com |
 | General/Unknown | info@atlantamotorsportspark.com |
 | Safety concerns | Escalate immediately to management |
+
+**Note:** For any HR-related inquiries (employment, complaints, legal questions), always route to hr@atlantamotorsportspark.com - NOT info@.
 
 ---
 

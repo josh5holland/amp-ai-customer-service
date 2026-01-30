@@ -141,6 +141,8 @@ Escalate to human when:
 
 - **Membership:** shawn@atlantamotorsportspark.com
 - **Karting program:** eli@ampkartracing.com
+- **Group events:** jessica@atlantamotorsportspark.com
+- **HR / Employment / Legal:** hr@atlantamotorsportspark.com
 - **Member calendar:** theclub.atlantamotorsportspark.com/calendar/
 - **General help:** info@atlantamotorsportspark.com
 

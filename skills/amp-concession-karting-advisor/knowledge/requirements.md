@@ -11,8 +11,18 @@
 **Both requirements must be met.**
 
 ### Minors (Under 18)
-- Waiver must be signed by parent/guardian
+
+**With Parent/Legal Guardian Present:**
+- Parent/guardian signs waiver for minor at the front gate
 - Adult must be present at facility during session
+
+**Without Parent/Legal Guardian:**
+- Must print and complete the Minor Waiver form before arriving
+- Must get waiver notarized
+- Must be accompanied by an adult (any person 18+)
+- Present notarized waiver to security gate staff
+
+**Minor Waiver Form:** https://www.atlantamotorsportspark.com/wp-content/uploads/2019/04/Minor-Waiver-Notary.pdf
 
 ### Junior Discovery (Alternative for Kids)
 - Ages: 5-11 years old
@@ -50,7 +60,7 @@
 ## Safety Briefing
 
 Before driving, all participants must:
-1. Complete waiver (minors need parent/guardian signature)
+1. Complete waiver at front gate (see Minor requirements above if under 18)
 2. Watch/receive safety briefing
 3. Understand flag signals and track rules
 

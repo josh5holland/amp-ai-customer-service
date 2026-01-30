@@ -29,9 +29,14 @@ CONCESSION KARTING (this skill)    RACE KARTING (different skill)
 |-------------|-------|
 | Minimum age | 12 years |
 | Minimum height | 60 inches (5 feet) |
-| Minors under 18 | Waiver required, adult present |
+| Minors under 18 | Waiver + adult (18+) required (see below) |
 | Footwear | Closed-toe required |
 | What's provided | Kart, helmet, safety briefing |
+
+### Minor Waiver Process
+- **With parent:** Parent signs at front gate
+- **Without parent:** Must bring notarized minor waiver + any adult 18+
+- **Minor waiver form:** https://www.atlantamotorsportspark.com/wp-content/uploads/2019/04/Minor-Waiver-Notary.pdf
 
 ---
 
@@ -146,3 +151,5 @@ Group size <= 10?
 | Leagues/Events | motorsportreg.com/orgs/atlanta-motorsports-park/events |
 | Junior Discovery | motorsportreg.com or (678) 381-8526 |
 | Race karting path | eli@ampkartracing.com |
+| Group events | jessica@atlantamotorsportspark.com |
+| HR / Employment / Legal | hr@atlantamotorsportspark.com |

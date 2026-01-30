@@ -88,7 +88,10 @@ See `knowledge/group-event-template.md` for the complete template and pricing lo
 ### Rental Karts (Standard)
 - **Minimum age:** 12 years old
 - **Minimum height:** 60 inches (5 feet)
-- **Minors under 18:** Need waiver signed, adult must be present
+- **Minors under 18:** Must have waiver signed and adult (18+) present
+  - With parent: Parent signs at front gate
+  - Without parent: Must bring notarized minor waiver form + be accompanied by any adult 18+
+  - **Minor Waiver Form:** https://www.atlantamotorsportspark.com/wp-content/uploads/2019/04/Minor-Waiver-Notary.pdf
 
 ### What's Provided
 - Sodi rental kart (with bumpers and seatbelts)

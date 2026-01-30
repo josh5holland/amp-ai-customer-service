@@ -75,4 +75,5 @@ What type of event?
 ## Key Contacts
 
 - **General:** info@atlantamotorsportspark.com
+- **HR / Employment / Legal:** hr@atlantamotorsportspark.com
 - **Event-specific:** Check event registration page

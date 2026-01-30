@@ -121,6 +121,8 @@
 ### For Help
 - Membership: shawn@atlantamotorsportspark.com
 - Karting: eli@ampkartracing.com
+- Group events: jessica@atlantamotorsportspark.com
+- HR / Employment / Legal: hr@atlantamotorsportspark.com
 - General: info@atlantamotorsportspark.com
 
 ---

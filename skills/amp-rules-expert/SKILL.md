@@ -132,6 +132,7 @@ Escalate to human when:
 ## Key Contacts
 
 - **General questions:** info@atlantamotorsportspark.com
+- **HR / Employment / Legal:** hr@atlantamotorsportspark.com
 - **Tech inspection:** Contact AMP directly
 - **Event-specific rules:** Check event registration page
 

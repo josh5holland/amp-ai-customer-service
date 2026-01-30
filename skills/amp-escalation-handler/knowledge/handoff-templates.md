@@ -115,6 +115,32 @@ Someone will be in touch soon.
 
 ---
 
+## HR / Employment Inquiry Handoff
+
+```
+Thank you for your interest in working with Atlanta Motorsports Park.
+
+For employment opportunities, applications, or any HR-related questions:
+**Email:** hr@atlantamotorsportspark.com
+
+They'll be happy to assist you with any questions about careers or HR matters.
+```
+
+---
+
+## Legal / Complaint Handoff
+
+```
+I understand this is a serious matter.
+
+For legal inquiries or formal complaints, please contact our HR department:
+**Email:** hr@atlantamotorsportspark.com
+
+They'll ensure your concern is addressed appropriately.
+```
+
+---
+
 ## Previous Issue Follow-Up Handoff
 
 ```

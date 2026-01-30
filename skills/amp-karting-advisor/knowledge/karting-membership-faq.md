@@ -20,15 +20,28 @@ From March to October, we host monthly club races including classes from kid kar
 
 ---
 
-## Minor Waivers
+## Waiver Requirements
 
-All minors (17 and under) must be accompanied by an adult. If the adult is not the parent/legal guardian, a signed and notarized waiver must be provided to security gate staff.
+**Everyone** must sign a waiver at the front gate when entering AMP property.
 
-Both sides of the two-page waiver must be completed:
-- Parental Waiver
-- Minor's Assumptions
+### Adults (18+)
+- Sign waiver at the gate upon arrival
 
-**Minor Waiver:** Available on AMP website
+### Minors (Under 18)
+
+**With Parent/Legal Guardian Present:**
+- Parent/guardian signs waiver for minor at the gate
+- No additional paperwork needed
+
+**Without Parent/Legal Guardian:**
+- Must print and complete the Minor Waiver form
+- Must get it notarized before arriving
+- Must be accompanied by an adult (any person 18+)
+- Present notarized waiver to security gate staff
+
+**Minor Waiver Form:** https://www.atlantamotorsportspark.com/wp-content/uploads/2019/04/Minor-Waiver-Notary.pdf
+
+**Online notarization:** Available at www.notarize.com if needed
 
 ---
 
