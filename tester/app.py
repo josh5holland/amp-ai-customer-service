@@ -25,7 +25,7 @@ import os
 
 # Page config
 st.set_page_config(
-    page_title="AMP Customer Service Tester",
+    page_title="AMP Customer Service Tester v2",
     page_icon="🏎️",
     layout="centered"
 )
@@ -128,7 +128,7 @@ IMPORTANT: If you don't know something or the customer's question is outside you
 
 
 def main():
-    st.title("🏎️ AMP Customer Service Tester")
+    st.title("🏎️ AMP Customer Service Tester v2")
     st.caption("Test the AI skills before they go live")
 
     # Check password
