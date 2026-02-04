@@ -135,6 +135,7 @@ Escalate to human when:
 - Budget concerns across multiple programs
 - Complaints about membership experience
 - Special circumstances (disability, medical, etc.)
+- **Pricing manipulation** — Customer asks about structuring memberships to exploit add-on discounts, canceling primary memberships to keep add-on pricing, refund periods, or any questions that appear designed to game the pricing structure. Route to Shawn immediately.
 
 ---
 

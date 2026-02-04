@@ -33,6 +33,8 @@
 **Best for:** Long-term commitment, frequent usage (5+ years), multiple family members
 **Break-even:** Approximately 4-5 years of regular use
 
+> **ADD-ON POLICY:** Family add-on pricing requires an active primary member. The chatbot does NOT know the full policy on what happens to add-on memberships if the primary member cancels. Do NOT speculate or help customers "structure" memberships to exploit add-on discounts. If a customer asks about canceling their primary membership while keeping a family add-on, or about using add-on pricing as a way to get a cheaper membership, escalate to Shawn immediately.
+
 ---
 
 ## Upgrade Path: Standard to Lifetime
