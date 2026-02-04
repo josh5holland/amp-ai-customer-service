@@ -86,7 +86,6 @@ Is the person a member or serious prospect?
 
 ### 2026 Championship
 - 5 rounds
-- $1,000 prize per class winner
 
 **Important:** Competition is OPTIONAL. Most members drive for fun, not competition. Don't oversell the racing aspect.
 

@@ -38,9 +38,6 @@ Competition at AMP is **completely optional**. Most members drive for the joy of
 - Points accumulated across rounds
 - Multiple classes by car type/prep level
 
-### Prize
-- $1,000 per class winner
-
 ### Eligibility
 - Active AMP members
 - Vehicle must meet class requirements

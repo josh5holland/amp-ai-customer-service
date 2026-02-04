@@ -169,5 +169,4 @@ Total budget under $5,000?
 
 ### 2026 Championship
 - 5 rounds
-- $1,000 prize per class winner
 - Entry via club racing events

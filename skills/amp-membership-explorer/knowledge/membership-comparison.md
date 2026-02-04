@@ -49,12 +49,14 @@
 - Membership required
 
 ### Cost
-| Type | Initiation | Monthly | Daily |
-|------|------------|---------|-------|
-| Standard | $3,500 | $95 | $20 |
-| Standard Add-on | $2,000 | $55 | $20 |
-| Lifetime | $10,000 | None | None |
-| Lifetime Add-on | $5,500 | None | None |
+| Type | Initiation | Monthly | Daily Fee |
+|------|------------|---------|-----------|
+| Standard | $3,500 | $95 | $20/day |
+| Standard Add-on | $2,000 | $55 | $20/day |
+| Lifetime | $10,000 | None | **None** |
+| Lifetime Add-on | $5,500 | None | **None** |
+
+> **Daily fee note:** The $20/day track fee applies ONLY to Standard Karting memberships. Lifetime Karting and ALL Road Course memberships (Platinum, Diamond, Corporate) have NO daily track fee.
 
 **Plus equipment:** ~$5,500 for beginner setup
 

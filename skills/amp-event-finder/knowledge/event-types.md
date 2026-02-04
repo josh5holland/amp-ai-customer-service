@@ -52,7 +52,7 @@
 - **What:** Competitive kart racing
 - **Requirements:** Race karting membership
 - **Format:** Points series, multiple classes
-- **Note:** 2026 Championship - 5 rounds, $1,000 per class
+- **Note:** 2026 Championship - 5 rounds throughout the year
 
 ### Public Karting Sessions
 - **What:** Rental kart sessions

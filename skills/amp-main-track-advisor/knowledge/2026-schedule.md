@@ -36,7 +36,6 @@
 
 ### 2026 Championship
 - **Format:** 5 rounds throughout the year
-- **Prize:** $1,000 per class winner
 - **Eligibility:** Active members
 
 ### Event Types Available

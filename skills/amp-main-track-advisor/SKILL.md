@@ -88,6 +88,8 @@ Always establish:
 
 ## What's Included (All Tiers)
 
+> **Road course memberships do NOT have a daily track fee.** The $20/day fee only applies to Standard Karting memberships on the kart track. Never mention a daily fee when discussing Platinum, Diamond, or Corporate road course memberships.
+
 - Member track days: Thursday, Friday, alternating weekends
 - Monthly classroom instruction (no extra cost)
 - 5+ Track Day Socials per year
@@ -211,7 +213,7 @@ For members interested in competitive driving:
 - **Autocross** - Cone course for street-legal cars
 - **Time Attack** - Timed laps against the clock
 - **Club Racing** - Wheel-to-wheel for caged race cars
-- **2026 Championship:** 5 rounds, $1,000 prize per class winner
+- **2026 Championship:** 5 rounds throughout the year
 
 **Note:** Competition is optional. Most members drive for fun, not competition.
 

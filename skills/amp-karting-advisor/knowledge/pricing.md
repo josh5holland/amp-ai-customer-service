@@ -14,6 +14,8 @@
 
 **Best for:** Testing the waters, uncertain long-term commitment, first-time motorsports families
 
+> **IMPORTANT: The $20 daily track fee applies ONLY to Standard Karting memberships. Lifetime Karting memberships and ALL Road Course memberships (Platinum, Diamond, Corporate) have NO daily track fee.**
+
 ---
 
 ## Lifetime Karting Membership
@@ -33,11 +35,16 @@
 
 ---
 
-## Upgrade Path
+## Upgrade Path: Standard to Lifetime
 
-- Standard members can upgrade to Lifetime within their first year
-- Original initiation fee ($3,500) credited toward Lifetime ($10,000)
-- Net upgrade cost: $6,500
+Standard Karting members can upgrade to Lifetime within their **first year** of membership.
+
+- **Original initiation paid:** $3,500
+- **Lifetime initiation cost:** $10,000
+- **Credit applied:** $3,500 (your original initiation fee)
+- **Net upgrade cost:** $6,500
+
+After upgrading, monthly dues ($95/month) and the daily track fee ($20/day) are both eliminated.
 
 ---
 

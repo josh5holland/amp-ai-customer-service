@@ -35,7 +35,7 @@
 - Autocross (cone course, street-legal cars)
 - Time Attack (timed laps)
 - Club Racing (wheel-to-wheel, caged race cars)
-- 2026 Championship: $1,000 prize per class winner
+- 2026 Championship: 5 rounds throughout the year
 
 **Note:** Competition is optional. Most members drive for fun.
 

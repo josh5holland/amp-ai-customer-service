@@ -112,7 +112,6 @@ From first karting school to first club race, most new karters need **3-6 months
 
 ### 2026 Championship
 - 5 rounds
-- $1,000 prize per class winner
 - Competitive field of regular racers
 
 ### Practice Days
